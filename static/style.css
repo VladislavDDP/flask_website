@@ -1,0 +1,24 @@
+body {
+  background: linear-gradient(to right, #e66465, 50%, #9198e5);
+  font-size: 30px;
+  color: #fff;
+}
+
+.container {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+}
+
+table {
+  margin: 0;
+  padding: 10px;
+}
+
+.input {
+  margin-left: 20px;
+  width: 250px;
+  height: 30px;
+}

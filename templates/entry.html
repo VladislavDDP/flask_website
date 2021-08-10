@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<form action="/results" method="POST">
+    <table>
+        <h3>Input data below...</h3>
+        <tr><td>Phrase: </td><td><input class="input" name="phrase" type="text"></td></tr>
+        <tr><td>Letters: </td><td><input class="input" name="letters" type="text" placeholder="aeoui"></td></tr>
+    </table>
+    <p>If you are ready click process button below!</p>
+    <p><input type="submit" value="Process"></p>
+</form>
+
+{% endblock %}
