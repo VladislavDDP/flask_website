@@ -8,7 +8,7 @@ def search_for_letters(phrase: str, letters: str) -> set:
     return set(letters).intersection(set(phrase))
 
 
-def log_request(req: 'flask_request', res: str) -> None:
+def log_request(req: 'request', res: str) -> None:
     with open('vsearch.log', 'a') as log:
         print(req.form, req.remote_addr, req.user_agent, res, file=log, sep='|')
 
