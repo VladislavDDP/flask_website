@@ -12,9 +12,21 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 table {
   margin: 0;
-  padding: 10px;
+  font-size: 25px;
+}
+
+tr {
+  background-color: rgba(102, 51, 153, 0.685);
+}
+
+td {
+  padding: 20px;
 }
 
 .input {
